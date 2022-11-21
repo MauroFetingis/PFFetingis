@@ -450,11 +450,13 @@ main .container{
   margin: 0; padding: 0;
   box-sizing: border-box;
   max-width: 1000px;
+  min-width: fit-content;
   margin: auto;
   overflow: auto;
   padding: 0 2rem;
 }
 main img{
+  min-width: fit-content;
   width: 100%;
   background-color: transparent;
 }
@@ -465,18 +467,20 @@ main img{
   background: rgb(19, 15, 15);
   margin-bottom: 2rem;
   justify-items: center;
-
+  min-width: fit-content;
 }
 .planes .container .card h3{
   margin-bottom: 2rem;
   font-size: 3rem;
   color: var(--main-color);
+  min-width: fit-content;
   
 }
 
 .planes .container .card img{
   height: 25em;
   width: 25rem;
+  min-width: fit-content;
 }
 
 .planes .container .card > div{
