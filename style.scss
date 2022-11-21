@@ -444,6 +444,8 @@ overflow: hidden;
 
 /*Inicio de seccion Planes*/
 main{
+  overflow: hidden;
+  min-width: fit-content;
   padding-top: 19rem;
 }
 main .container{
@@ -515,6 +517,10 @@ main img{
   .card{
       display: block;
   }
+}
+
+@media screen and (max-width:320px){
+  body {width:auto;}
 }
 
 /**/

@@ -453,6 +453,10 @@ footer {
 /*header 2*/
 /*Inicio de seccion Planes*/
 main {
+  overflow: hidden;
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
   padding-top: 19rem;
 }
 
@@ -540,6 +544,11 @@ main img {
 @media (max-width: 650px) {
   .card {
     display: block;
+  }
+}
+@media screen and (max-width: 320px) {
+  body {
+    width: auto;
   }
 }
 /**/
